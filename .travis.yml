@@ -5,6 +5,7 @@ install:
 
 script:
   - hugo
+  - chmod +x ./deploy.sh
 
 deploy:
   - provider: script
