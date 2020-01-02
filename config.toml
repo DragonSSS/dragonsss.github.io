@@ -1,0 +1,78 @@
+baseURL = "https://dragonsss.github.io"
+languageCode = "en-us"
+title = "Wilson's blog"
+baseurl = "/"
+theme = "hello-friend-ng"
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04"
+
+  # Metadata mostly used in document's head
+  description = "Homepage and blog by Wilson Song"
+  keywords = "homepage, blog, science, informatics, development, programming"
+  images = [""]
+
+  # Directory name of your blog content (default is `content/posts`)
+  contentTypeName = "posts"
+  # Default theme "light" or "dark"
+  defaultTheme = "light"
+
+  [[params.social]]
+    name = "twitter"
+    url  = "https://twitter.com/DragonSwl/"
+
+  [[params.social]]
+    name = "email"
+    url  = "mailto:songweillong1989@gmail.com"
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/dragonsss/"
+
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/in/weilongsong/"
+
+
+[author]
+  name = "Wilson Song"
+
+[languages]
+  [languages.en]
+    title = "Wilson Song"
+    jobTitle = "Software Engineer"
+    homeSubtitle = "-To strive, to seek, to find, and not to yield.-"
+    keywords = ""
+    copyright = ""
+    readOtherPosts = "Read other posts"
+    showReadingTime = "true"
+
+    [languages.en.params.logo]
+      logoText = "$ cd"
+      logoHomeLink = "/"
+
+	# You can create a language based menu
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about"
+
+      [[languages.en.menu.main]]
+        identifier = "posts"
+        name = "Posts"
+        url = "/posts"
+
+# And you can even create generic menu
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "/about"
+  [[menu.main]]
+    identifier = "posts"
+    name       = "Posts"
+    url        = "/posts"
