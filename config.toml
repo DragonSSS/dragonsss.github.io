@@ -60,11 +60,19 @@ theme = "hello-friend-ng"
         identifier = "about"
         name = "About"
         url = "/about"
+        weight = 1
+      
+      [[languages.en.menu.main]]
+        identifier = "work"
+        name = "Work"
+        url = "/work"
+        weight = 2
 
       [[languages.en.menu.main]]
         identifier = "posts"
         name = "Posts"
         url = "/posts"
+        weight = 3
 
 # And you can even create generic menu
 [menu]
@@ -73,6 +81,17 @@ theme = "hello-friend-ng"
     name       = "About"
     url        = "/about"
   [[menu.main]]
+    identifier = "work"
+    name       = "Work"
+    url        = "/work"
+  [[menu.main]]
     identifier = "posts"
     name       = "Posts"
     url        = "/posts"
+
+# Make markdown be able to render html content
+[markup]
+  defaultMarkdownHandler = "goldmark"
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
