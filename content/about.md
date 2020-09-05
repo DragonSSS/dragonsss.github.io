@@ -6,6 +6,7 @@ aliases = ["about-us","about-hugo","contact"]
   name = "Wilson"
 +++
 
+<!--
 <style>
 figcaption {
   background-color: inherit;
@@ -18,3 +19,4 @@ figcaption {
   <img src="/img/keyboard.jpg" height="80%" width="80%">
   <figcaption>Live and learn, live and code</figcaption>
 </p>
+-->
