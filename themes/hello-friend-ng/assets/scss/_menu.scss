@@ -26,6 +26,7 @@
     padding: 0 15px;
     font-size: 1rem;
     list-style: none;
+    font-weight: 700;
 
     li {
       margin: 0 12px;
@@ -55,10 +56,6 @@
     display: inline-block;
     margin-right: 15px;
     text-decoration: none;
-
-    &:hover {
-      text-decoration: underline;
-    }
 
     &:last-of-type {
       margin-right: 0;
