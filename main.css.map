@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "main.css",
-	"sourceRoot": "/home/travis/build/DragonSSS/dragonsss.github.io",
+	"sourceRoot": "/home/runner/work/dragonsss.github.io/dragonsss.github.io",
 	"sources": [
 		"themes/hello-friend-ng/assets/scss/main.scss",
 		"themes/hello-friend-ng/assets/scss/_normalize.scss",
