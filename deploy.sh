@@ -15,8 +15,7 @@ rsync -av --delete --exclude ".git" public/ deployment
 cd deployment
 git add -A
 git commit -m "rebuilding site on $(date), commit ${GITHUB_SHA} and GitHub Actions run number ${GITHUB_RUN_NUMBER}" || true
-git remote set-url master https://${GH_TOKEN}@github.com/DragonSSS/dragonsss.github.io.git
-git push
+git push https://${GH_TOKEN}@github.com/DragonSSS/dragonsss.github.io.git master
 
 cd ..
 rm -rf deployment
