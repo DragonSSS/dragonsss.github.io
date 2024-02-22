@@ -26,4 +26,4 @@ jobs:
       - name: Deploy
         run: ./deploy.sh
         env:
-          AUTH_SECRET: ${{ secrets.AUTH_SECRET }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
