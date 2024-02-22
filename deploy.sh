@@ -4,7 +4,6 @@ set -e
 
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
-git config --global credential.helper store
 git config --global user.email "dragonsss-blog-bot@users.noreply.github.com"
 git config --global user.name "dragonsss-blog-bot"
 git config --global push.default simple
