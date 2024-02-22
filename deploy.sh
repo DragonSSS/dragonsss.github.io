@@ -6,7 +6,6 @@ echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
 git config --global user.email "dragonsss-blog-bot@users.noreply.github.com"
 git config --global user.name "dragonsss-blog-bot"
-git config --global push.default simple
 git config --global url.https://${GH_TOKEN}@github.com/.insteadOf https://github.com/
 
 rm -rf deployment
